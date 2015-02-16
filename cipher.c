@@ -1,5 +1,5 @@
-// Project: 	Caesar Ciphers
-// Author:	Yonglei Tao
+// Project: Caesar Ciphers
+// Author:Yonglei Tao
 
 #include <ctype.h>
 #include <stdio.h>
@@ -29,7 +29,7 @@ void calcFreq()
 {
     int frequency[26];
     int ch;
-    File* given = fopen ("given.txt", "rt");
+    FILE* given = fopen ("given.txt", "rt");
 
     // init frequency
     for (ch = 0; ch < 26; ch++)
